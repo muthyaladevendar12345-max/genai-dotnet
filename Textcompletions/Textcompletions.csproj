@@ -5,13 +5,13 @@
     <TargetFramework>net9.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <UserSecretsId>e8be2b78-1f2f-4f12-951b-f3e59f7a39f3</UserSecretsId>
+    <UserSecretsId>c0cbca95-fc59-4b11-8cd6-cc9bd33dbf0d</UserSecretsId>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Microsoft.Extensions.AI" Version="10.3.0" />
-    <PackageReference Include="Microsoft.Extensions.AI.OpenAI" Version="10.3.0" />
-    <PackageReference Include="Microsoft.Extensions.Configuration" Version="10.0.3" />
+	  <PackageReference Include="Microsoft.Extensions.AI" Version="10.3.0" />
+	  <PackageReference Include="Microsoft.Extensions.AI.OpenAI" Version="10.3.0" />
+	  <PackageReference Include="Microsoft.Extensions.Configuration" Version="10.0.3" />
     <PackageReference Include="Microsoft.Extensions.Configuration.UserSecrets" Version="10.0.3" />
   </ItemGroup>
 

@@ -6,7 +6,7 @@ using System.ClientModel;
 using System.Text.Json.Serialization;
 
 IConfigurationRoot config=new  ConfigurationBuilder().AddUserSecrets<Program>().Build();
-var credential = new ApiKeyCredential(config["GitHubModels:Token"] ?? throw new InvalidOperationException("Missing configuration: GitHubModels:Token."));
+var credential = new ApiKeyCredential(config["GitHub Models token:Token"] ?? throw new InvalidOperationException("Missing configuration: GitHubModels:Token."));
 var options = new OpenAIClientOptions()
 {
     Endpoint = new Uri("https://models.github.ai/inference")

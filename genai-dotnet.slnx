@@ -1,5 +1,5 @@
 <Solution>
   <Folder Name="/LLMIntegrations/">
-    <Project Path="TextCompletion/TextCompletion.csproj" />
+    <Project Path="Textcompletions/Textcompletions.csproj" Id="3c4e999d-65a9-4e23-bb8b-3cc02c9a7cbb" />
   </Folder>
 </Solution>
