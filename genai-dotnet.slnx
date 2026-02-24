@@ -1,5 +1,7 @@
 <Solution>
   <Folder Name="/LLMIntegrations/">
+    <Project Path="FunctionCall/FunctionCall.csproj" Id="e7775623-1e97-444c-a5f1-831feb90b6c0" />
     <Project Path="Textcompletions/Textcompletions.csproj" Id="3c4e999d-65a9-4e23-bb8b-3cc02c9a7cbb" />
+    <Project Path="Text_completion_ollama/Text_completion_ollama.csproj" Id="8d903bec-6319-466b-b212-04882a3f87f6" />
   </Folder>
 </Solution>
